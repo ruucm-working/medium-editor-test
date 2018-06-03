@@ -1,0 +1,26 @@
+{
+  "name": "visual-editor",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "react-scripts": "1.1.4"
+  },
+  "dependencies": {
+    "Dante2": "^0.4.4",
+    "medium-draft": "^0.6.0-beta1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "husky": {
+    "hooks": {
+      "post-commit": "git push origin master"
+    }
+  }
+}
