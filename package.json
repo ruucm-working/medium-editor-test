@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "husky": "^0.14.3",
+    "husky": "^1.0.0-rc.8",
     "react-scripts": "1.1.4"
   },
   "dependencies": {
@@ -20,7 +20,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "git push origin master"
+      "post-commit": "git push origin master"
     }
   }
 }
